@@ -13,8 +13,8 @@ colorFormat.js是将颜色值转换为你需要格式的JavaScript库，现在�
 
 |参数|类型|默认值|描述|
 |----|----|----|----|
-|color|String|`"#f00"`|待转换的颜色值，支持`HEX/RGB/RGBA/HSL/HSLA` 5 种格式，并且支持`red`/`orange`/`yellow`/`green`/`cyan`/`blue`/`violet`/`black`/`white`|
-|format|String|`"rgb"`|你希望将待转换的颜色值转换为哪种格式的颜色，支持`HEX/RGB/RGBA/HSL/HSLA` 5种格式|
+|color|String|#f00|待转换的颜色值，支持HEX/RGB/RGBA/HSL/HSLA 5 种格式，并且支持red/orange/yellow/green/cyan/blue/violet/black/white|
+|format|String|rgb|你希望将待转换的颜色值转换为哪种格式的颜色，支持HEX/RGB/RGBA/HSL/HSLA 5种格式|
 
 **注意**：
  1. 请自行保证输入的待转换色值的正确性，本插件暂未对待转换色值的正确性进行判断，后期考虑添加。
